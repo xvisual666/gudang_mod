@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XVISUAL</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/fivem.png" />
+    <!-- Link ke font-awesome untuk icon YouTube -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!-- Wrapper untuk animasi transisi saat membuka website -->
+    <div class="loading-screen">
+        <h1>Loading...</h1>
+    </div>
+
+    <!-- Konten website -->
+
+        <div class="container">
+            <button id="guideBtn" class="guide-button">
+                <span class="icon">🛒</span> <b>CARA ORDER!</b>
+            </button>
+
+            <!-- <a href="https://cfx.re/join/x75k4r" target="_blank" class="guide-button">
+                <span  class="icon">🏙️</span> Masuk Kota
+            </a> -->
+        </div>
+    
+    <!-- Popup Dialog -->
+    <div id="guideModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Panduan Berdonasi</h2>
+            <ol>
+                <li>Klik "Order Now!".</li>
+                <li>Sesuaikan jumlah lockpick dengan mods yang diinginkan, lalu klik "Next".</li>
+                <li>Isi kolom pesan dengan nama mods yang diinginkan.</li>
+                <li>Lakukan pembayaran sesuai metode pilihanmu.</li>
+                <li>Screenshot bukti pembayaran dan kirim ke room tiket Discord.</li>
+                <li>Selesai. File akan dikirimkan via room tiket Discord.🤗</li>
+            </ol>
+<p>Butuh Bantuan? Silakan chat Admin via room Tiket ya!</p>
+        </div>
+    </div>
+
+    <div class="container">
+
+       <!-- MOD GRAPHIC-->
+<header>
+  <img src="img/1.png" alt="Header Image" class="header-image">
+</header>
+
+      <!-- List Mod Grafik -->
+      <section class="product-section">
+
+<!-- Produk 1 -->
+<div class="card">
+  <h3>Quantv (BASIC)</h3>
+  <p>✨ Mod Quantv Reshade.</p>
+  <p>✨ Bonus Presets Quantv Reshade.</p>
+  <div class="price-button">
+    <span class="price" onclick="copyText(this)">
+        <img src="img/lockpick.png" alt="icon" class="price-icon">
+        <span class="value">50</span>
+        <span class="tooltip">Klik untuk copy</span>
+      </span>
+      <!-- <a href="https://youtu.be/GE7OEVGaVjQ" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a> -->
+      <!-- <a href="https://youtu.be/HuTw8JvhF3Q?si=kvRu1N6Zx9v2B9Df" target="_blank" class="button"><i class="fab fa-youtube"></i> Review</a> -->
+  </div>
+</div>
+
+<!-- Produk 2 -->
+<div class="card">
+  <h3>Quantv (PRO)</h3>
+  <p>✨ Fivem Settings.</p>
+  <p>✨ Garansi Free Update 30 Hari.</p>
+  <p>✨ (sudah termasuk paket basic).</p>
+  <div class="price-button">
+    <span class="price" onclick="copyText(this)">
+        <img src="img/lockpick.png" alt="icon" class="price-icon">
+        <span class="value">75</span>
+        <span class="tooltip">Klik untuk copy</span>
+      </span>
+      <!-- <a href="https://youtu.be/GE7OEVGaVjQ" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a> -->
+      <!-- <a href="https://youtu.be/HuTw8JvhF3Q?si=kvRu1N6Zx9v2B9Df" target="_blank" class="button"><i class="fab fa-youtube"></i> Review</a> -->
+  </div>
+</div>
+
+<!-- Produk 3 -->
+<div class="card">
+  <h3 class="premium-title">Quantv (PREMIUM)</h3>
+  <p>✨ XVISUAL Ver.I (RESHADE).</p>
+  <p>✨ (sudah termasuk paket pro).</p>
+  <p>✨ (hemat 75K).</p>
+  <div class="price-button">
+    <span class="price" onclick="copyText(this)">
+        <img src="img/lockpick.png" alt="icon" class="price-icon">
+        <span class="value">150</span>
+        <span class="tooltip">Klik untuk copy</span>
+      </span>
+      <a href="https://youtu.be/GE7OEVGaVjQ" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a>
+      <a href="https://youtu.be/HuTw8JvhF3Q?si=kvRu1N6Zx9v2B9Df" target="_blank" class="button"><i class="fab fa-youtube"></i> Review</a>
+  </div>
+</div>
+
+<!-- Produk 4 -->
+<div class="card">
+  <h3>NVE (NATURAL VISION EVOLVED)</h3>
+  <p>✨ Mod NVE.</p>
+  <p>✨ Bonus Presets Reshade NVE.</p>
+  <div class="price-button">
+    <span class="price" onclick="copyText(this)">
+        <img src="img/lockpick.png" alt="icon" class="price-icon">
+        <span class="value">50</span>
+        <span class="tooltip">Klik untuk copy</span>
+      </span>
+      <a href="https://youtu.be/LWj1jwOFZIo" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a>
+      <a href="https://youtu.be/Ho7jLbixbOw?si=9NsTXB1uFwyGQl3_" target="_blank" class="button"><i class="fab fa-youtube"></i> Review</a>
+  </div>
+</div>
+
+<!-- Produk 5 -->
+<div class="card">
+  <h3>RTGI (RAY TRACING)</h3>
+  <p>✨ Mod RTGI.</p>
+  <p>✨ 10 Bonus Presets Reshade RTGI.</p>
+  <div class="price-button">
+    <span class="price" onclick="copyText(this)">
+        <img src="img/lockpick.png" alt="icon" class="price-icon">
+        <span class="value">50</span>
+        <span class="tooltip">Klik untuk copy</span>
+      </span>
+            <a href="https://youtu.be/LrP4DhieRD8?si=ufpboEaaSWkpp07b" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a>
+  </div>
+</div>
+
+<!-- Produk 5 -->
+<div class="card">
+  <h3>DLSS (GTA V UPSCALER)</h3>
+  <p>✨ Dapat berjalan disemua jenis Reshade.</p>
+  <p>✨ Wajib VGA RTX.</p>
+  <div class="price-button">
+    <span class="price" onclick="copyText(this)">
+        <img src="img/lockpick.png" alt="icon" class="price-icon">
+        <span class="value">150</span>
+        <span class="tooltip">Klik untuk copy</span>
+      </span>
+      <a href="https://youtu.be/5xCePSJF9Wg" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a>
+  </div>
+</div>
+
+<!-- Produk 6 -->
+<div class="card">
+  <h3>8 LEVEL MOTION BLUR</h3>
+  <p>✨ rpf mod.</p>
+  <div class="price-button">
+    <span class="price" onclick="copyText(this)">
+        <img src="img/lockpick.png" alt="icon" class="price-icon">
+        <span class="value">50</span>
+        <span class="tooltip">Klik untuk copy</span>
+      </span>
+      <a href="https://youtu.be/fE6pmJJApQM" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a>
+  </div>
+</div>
+
+<!-- Produk 7 -->
+<div class="card">
+  <h3>ROAD MODs PACK</h3>
+  <p>✨ 8 Mod Jalan</p>
+  <p>✨ Akses Permanen</p>
+  <p>✨ Free Download Jika Ada Mod Jalan Yang Baru</p>
+  <div class="price-button">
+    <span class="price" onclick="copyText(this)">
+        <img src="img/lockpick.png" alt="icon" class="price-icon">
+        <span class="value">200</span>
+        <span class="tooltip">Klik untuk copy</span>
+      </span>
+      <a href="https://www.youtube.com/@riianes666/playlists" target="_blank" class="button"><i class="fab fa-youtube"></i>Review</a>
+  </div>
+</div>
+
+<!-- Produk 8 -->
+<div class="card">
+  <h3>ADVANCE STREET LIGHT</h3>
+  <p>✨ -+ 30 Mod Warna Lampu Jalan.</p>
+  <div class="price-button">
+    <span class="price" onclick="copyText(this)">
+        <img src="img/lockpick.png" alt="icon" class="price-icon">
+        <span class="value">50</span>
+        <span class="tooltip">Klik untuk copy</span>
+      </span>
+      <a href="https://youtu.be/Wx1F9aVANHs" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a>
+  </div>
+</div>
+
+<!-- Produk 8 -->
+<div class="card">
+  <h3>VEGETATION GREEN GROOVE 2.0</h3>
+  <p>✨ rpf mod.</p>
+  <div class="price-button">
+    <span class="price" onclick="copyText(this)">
+        <img src="img/lockpick.png" alt="icon" class="price-icon">
+        <span class="value">50</span>
+        <span class="tooltip">Klik untuk copy</span>
+      </span>
+      <a href="https://youtu.be/KR-4EgU7QQ8" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a>
+      <a href="https://youtu.be/oqtnsTK9iFc?si=2AyIZhUgKKMUHIuA" target="_blank" class="button"><i class="fab fa-youtube"></i> Review</a>
+  </div>
+</div>
+
+<!-- Produk 8 -->
+<div class="card">
+  <h3>VEGETATION FOSA 5.0</h3>
+  <p>✨ rpf mod.</p>
+  <div class="price-button">
+    <span class="price" onclick="copyText(this)">
+        <img src="img/lockpick.png" alt="icon" class="price-icon">
+        <span class="value">50</span>
+        <span class="tooltip">Klik untuk copy</span>
+      </span>
+      <a href="https://youtu.be/puKHBEf0nUw" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a>
+  </div>
+</div>
+
+<!-- Produk 2 -->
+<div class="card">
+    <h3>NP KOIL SHADERS (ENB)</h3>
+    <p>✨ 4 rpf mod.</p>
+    <p>✨ Presets ENB</p>
+    <p>✨ Presets Reshade.</p>
+    <div class="price-button">
+        <span class="price" onclick="copyText(this)">
+            <img src="img/lockpick.png" alt="icon" class="price-icon">
+            <span class="value">50</span>
+            <span class="tooltip">Klik untuk copy</span>
+          </span>
+            <a href="https://youtu.be/vESISfh96Uc" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a>
+    </div>
+  </div>
+  
+  <!-- Produk 3 -->
+  <div class="card">
+    <h3>XVISUAL V1 (ENB)</h3>
+    <p>✨ 10 rpf mod.</p>
+    <p>✨ Presets ENB</p>
+    <p>✨ Presets Reshade.</p>
+    <div class="price-button">
+        <span class="price" onclick="copyText(this)">
+            <img src="img/lockpick.png" alt="icon" class="price-icon">
+            <span class="value">250</span>
+            <span class="tooltip">Klik untuk copy</span>
+          </span>
+            <a href="https://youtu.be/0tmrumjaYO8" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a>
+        <a href="https://youtu.be/bKAanFvAtMU?si=dq9auX0BkyuRI35c" target="_blank" class="button"><i class="fab fa-youtube"></i> Review</a>
+    </div>
+  </div>
+
+</section>
+
+       <!-- PRESETS -->
+<header>
+  <img src="img/2.png" alt="Header Image" class="header-image">
+</header>
+
+      <section class="product-section">
+
+<!-- Produk 1 -->
+<div class="card">
+  <h3>XVISUAL Ver.I (RESHADE)</h3>
+  <p>✨ 10 Presets Reshade.</p>
+  <div class="price-button">
+    <span class="price" onclick="copyText(this)">
+        <img src="img/lockpick.png" alt="icon" class="price-icon">
+        <span class="value">150</span>
+        <span class="tooltip">Klik untuk copy</span>
+      </span>
+      <a href="https://discord.com/channels/777918050258649109/1297768592892497930" target="_blank" class="button"><i class="fab fa-youtube"></i> Review</a>
+  </div>
+</div>
+
+<!-- Produk 1 -->
+<div class="card">
+  <h3>XVISUAL Ver.II Quantv (RESHADE)</h3>
+  <p>✨ 10 Presets Reshade.</p>
+  <p>✨ Wajib Instal Mod Quantv Untuk Hasil Maksimal.</p>
+  <div class="price-button">
+    <span class="price" onclick="copyText(this)">
+        <img src="img/lockpick.png" alt="icon" class="price-icon">
+        <span class="value">150</span>
+        <span class="tooltip">Klik untuk copy</span>
+      </span>
+      <a href="https://discord.com/channels/777918050258649109/1297569456708386910" target="_blank" class="button"><i class="fab fa-youtube"></i> Review</a>
+  </div>
+</div>
+
+</section>
+        <!-- PRESETS -->
+
+              <!-- CITIZEN -->
+              <header>
+                <img src="img/3.png" alt="Header Image" class="header-image">
+              </header>
+              
+                    <section class="product-section">
+              
+              <!-- Produk 1 -->
+              <div class="card">
+                <h3>CITIZEN TIER 1</h3>
+                <p>✨ 3 Citizen Fps.</p>
+                <p>✨ 2 Citizen No Night.</p>
+                <div class="price-button">
+                    <span class="price" onclick="copyText(this)">
+                        <img src="img/lockpick.png" alt="icon" class="price-icon">
+                        <span class="value">50</span>
+                        <span class="tooltip">Klik untuk copy</span>
+                      </span>
+                                    <!-- <a href="https://youtu.be/2kyUjLdOmGk?si=yCEbRL_o4EQZ9Gr1" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a> -->
+                </div>
+              </div>
+              
+              <!-- Produk 2 -->
+              <div class="card">
+                <h3>CITIZEN TIER 2</h3>
+                <p>✨ 4 Citizen Fps.</p>
+                <p>✨ 6 Citizen No Night.</p>
+                <div class="price-button">
+                    <span class="price" onclick="copyText(this)">
+                        <img src="img/lockpick.png" alt="icon" class="price-icon">
+                        <span class="value">100</span>
+                        <span class="tooltip">Klik untuk copy</span>
+                      </span>
+                                    <!-- <a href="https://youtu.be/2kyUjLdOmGk?si=yCEbRL_o4EQZ9Gr1" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a> -->
+                </div>
+              </div>
+              
+              <!-- Produk 3 -->
+              <div class="card">
+                <h3 class="premium-title">CITIZEN TIER 3</br>(FULL ACCESS)</h3>
+                <p>✨ 18 Citizen.</p>
+                <p>✨ Akses Permanen.</p>
+                <p>✨ Free Download Jika Ada Citizen Baru.</p>
+                <div class="price-button">
+                    <span class="price" onclick="copyText(this)">
+                        <img src="img/lockpick.png" alt="icon" class="price-icon">
+                        <span class="value">200</span>
+                        <span class="tooltip">Klik untuk copy</span>
+                      </span>
+                                    <a href="https://youtu.be/2kyUjLdOmGk?si=yCEbRL_o4EQZ9Gr1" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a>
+                </div>
+              </div>
+              
+              </section>
+
+              <!-- WEAPON SFX -->
+              <header>
+                <img src="img/4.png" alt="Header Image" class="header-image">
+              </header>
+              
+                    <section class="product-section">
+              
+              <!-- Produk 1 -->
+
+  <!-- Produk 3 -->
+  <div class="card">
+    <h3>WEAPON SOUND PACK</h3>
+    <p>✨ 8 PACK.</p>
+    <div class="price-button">
+        <span class="price" onclick="copyText(this)">
+            <img src="img/lockpick.png" alt="icon" class="price-icon">
+            <span class="value">150</span>
+            <span class="tooltip">Klik untuk copy</span>
+          </span>
+            <a href="https://youtu.be/z6kFQijG2Hw" target="_blank" class="button"><i class="fab fa-youtube"></i> Tutorial</a>
+    </div>
+  </div>              
+              </section>
+
+<!-- Footer 
+<footer class="footer">
+    <p>Follow Us</p>
+    <a href="https://www.youtube.com/@riianes666" target="_blank" class="social-icon">
+        <i class="fab fa-youtube"></i>
+    </a>
+    <a href="https://www.tiktok.com/@riianes" target="_blank" class="social-icon">
+        <i class="fab fa-tiktok"></i>
+    </a>
+    <a href="https://discord.gg/riianes" target="_blank" class="social-icon">
+        <i class="fab fa-discord"></i>
+    </a>
+</footer>
+-->
+
+<script type='text/javascript' src='https://assets.trakteer.id/js/trbtn-overlay.min.js'></script><script type='text/javascript' class='troverlay'>(function() {var trbtnId = trbtnOverlay.init('Order Now!','#be1e2d','https://trakteer.id/xvisual/tip/embed/modal','https://trakteer-uploads.sgp1.digitaloceanspaces.com/images/units/uic-ZH9E2RexEU71gTpKghyLuV9gM1eBVkvz1721111388.png','40','floating-right');trbtnOverlay.draw(trbtnId);})();</script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
